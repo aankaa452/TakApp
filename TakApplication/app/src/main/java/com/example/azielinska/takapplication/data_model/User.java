@@ -5,18 +5,18 @@ package com.example.azielinska.takapplication.data_model;
  */
 public class User
 {
-    private int _Id;
+    private Integer _Id;
     private String _LName;
     private String _FName;
     private String _Username;
     private String _PhoneNo;
-    private int _RoleId;
-    private int _IsActive;
+    private Integer _RoleId;
+    private Integer _IsActive;
     private Integer _AdressId;
     private Integer _ClassId;
 
 
-    public int get_Id() {
+    public Integer get_Id() {
         return _Id;
     }
 
@@ -56,7 +56,7 @@ public class User
         this._PhoneNo = _PhoneNo;
     }
 
-    public int get_RoleId() {
+    public Integer get_RoleId() {
         return _RoleId;
     }
 
@@ -64,7 +64,7 @@ public class User
         this._RoleId = _RoleId;
     }
 
-    public int get_IsActive() {
+    public Integer get_IsActive() {
         return _IsActive;
     }
 

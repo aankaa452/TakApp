@@ -1,24 +1,25 @@
 package com.example.azielinska.takapplication.data_model;
 
 import java.text.DateFormat;
+import java.util.Date;
 
 /**
  * Created by azielinska on 11/05/2017.
  */
 public class Task
 {
-    private int _Id;
-    private int _CategoryId;
-    private int _StatusId;
-    private DateFormat _TimeFrom;
-    private DateFormat _TimeTo;
-    private int _CreatorId;
-    private DateFormat _CreationTime;
+    private Integer _Id;
+    private Integer _CategoryId;
+    private Integer _StatusId;
+    private Date _TimeFrom;
+    private Date _TimeTo;
+    private Integer _CreatorId;
+    private Date _CreationTime;
     private Integer _ExecutorId;
-    private DateFormat _ExecutionTime;
-    private int _IsApproved;
+    private Date _ExecutionTime;
+    private Integer _IsApproved;
 
-    public int get_Id() {
+    public Integer get_Id() {
         return _Id;
     }
 
@@ -26,7 +27,7 @@ public class Task
         this._Id = _Id;
     }
 
-    public int get_CategoryId() {
+    public Integer get_CategoryId() {
         return _CategoryId;
     }
 
@@ -34,7 +35,7 @@ public class Task
         this._CategoryId = _CategoryId;
     }
 
-    public int get_StatusId() {
+    public Integer get_StatusId() {
         return _StatusId;
     }
 
@@ -42,23 +43,23 @@ public class Task
         this._StatusId = _StatusId;
     }
 
-    public DateFormat get_TimeFrom() {
+    public Date get_TimeFrom() {
         return _TimeFrom;
     }
 
-    public void set_TimeFrom(DateFormat _TimeFrom) {
+    public void set_TimeFrom(Date _TimeFrom) {
         this._TimeFrom = _TimeFrom;
     }
 
-    public DateFormat get_TimeTo() {
+    public Date get_TimeTo() {
         return _TimeTo;
     }
 
-    public void set_TimeTo(DateFormat _TimeTo) {
+    public void set_TimeTo(Date _TimeTo) {
         this._TimeTo = _TimeTo;
     }
 
-    public int get_CreatorId() {
+    public Integer get_CreatorId() {
         return _CreatorId;
     }
 
@@ -66,11 +67,11 @@ public class Task
         this._CreatorId = _CreatorId;
     }
 
-    public DateFormat get_CreationTime() {
+    public Date get_CreationTime() {
         return _CreationTime;
     }
 
-    public void set_CreationTime(DateFormat _CreationTime) {
+    public void set_CreationTime(Date _CreationTime) {
         this._CreationTime = _CreationTime;
     }
 
@@ -82,15 +83,15 @@ public class Task
         this._ExecutorId = _ExecutorId;
     }
 
-    public DateFormat get_ExecutionTime() {
+    public Date get_ExecutionTime() {
         return _ExecutionTime;
     }
 
-    public void set_ExecutionTime(DateFormat _ExecutionTime) {
+    public void set_ExecutionTime(Date _ExecutionTime) {
         this._ExecutionTime = _ExecutionTime;
     }
 
-    public int get_IsApproved() {
+    public Integer get_IsApproved() {
         return _IsApproved;
     }
 
